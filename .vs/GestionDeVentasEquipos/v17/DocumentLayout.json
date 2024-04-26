@@ -3,19 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\Universidad cuarto semestre\\HerramientasII\\GestionDeVentasEquipos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F9E7F8AD-4C12-47FC-B4D7-0A928296EA74}|GestionDeVentasEquipos.csproj|C:\\Users\\ASUS\\Desktop\\Universidad cuarto semestre\\HerramientasII\\GestionDeVentasEquipos\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{F9E7F8AD-4C12-47FC-B4D7-0A928296EA74}|GestionDeVentasEquipos.csproj|solutionrelative:default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9E7F8AD-4C12-47FC-B4D7-0A928296EA74}|GestionDeVentasEquipos.csproj|c:\\users\\asus\\desktop\\universidad cuarto semestre\\herramientasii\\gestiondeventasequipos\\informeventas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{F9E7F8AD-4C12-47FC-B4D7-0A928296EA74}|GestionDeVentasEquipos.csproj|C:\\Users\\ASUS\\Desktop\\Universidad cuarto semestre\\HerramientasII\\GestionDeVentasEquipos\\informeventas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{F9E7F8AD-4C12-47FC-B4D7-0A928296EA74}|GestionDeVentasEquipos.csproj|solutionrelative:informeventas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9E7F8AD-4C12-47FC-B4D7-0A928296EA74}|GestionDeVentasEquipos.csproj|c:\\users\\asus\\desktop\\universidad cuarto semestre\\herramientasii\\gestiondeventasequipos\\informeventas.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{F9E7F8AD-4C12-47FC-B4D7-0A928296EA74}|GestionDeVentasEquipos.csproj|c:\\users\\asus\\desktop\\universidad cuarto semestre\\herramientasii\\gestiondeventasequipos\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F9E7F8AD-4C12-47FC-B4D7-0A928296EA74}|GestionDeVentasEquipos.csproj|solutionrelative:default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9E7F8AD-4C12-47FC-B4D7-0A928296EA74}|GestionDeVentasEquipos.csproj|C:\\Users\\ASUS\\Desktop\\Universidad cuarto semestre\\HerramientasII\\GestionDeVentasEquipos\\informeventas.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{F9E7F8AD-4C12-47FC-B4D7-0A928296EA74}|GestionDeVentasEquipos.csproj|solutionrelative:informeventas.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9E7F8AD-4C12-47FC-B4D7-0A928296EA74}|GestionDeVentasEquipos.csproj|c:\\users\\asus\\desktop\\universidad cuarto semestre\\herramientasii\\gestiondeventasequipos\\estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{F9E7F8AD-4C12-47FC-B4D7-0A928296EA74}|GestionDeVentasEquipos.csproj|C:\\Users\\ASUS\\Desktop\\Universidad cuarto semestre\\HerramientasII\\GestionDeVentasEquipos\\estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{F9E7F8AD-4C12-47FC-B4D7-0A928296EA74}|GestionDeVentasEquipos.csproj|solutionrelative:estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -38,8 +38,7 @@
               "RelativeToolTip": "estilos.css",
               "ViewState": "AQIAAAgAAAAAAAAAAADwvx4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-26T21:55:00.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-26T21:55:00.414Z"
             },
             {
               "$type": "Document",
@@ -51,12 +50,11 @@
               "RelativeToolTip": "InformeVentas.css",
               "ViewState": "AQIAAB4AAAAAAAAAAAAAADoAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-26T21:48:37.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-26T21:48:37.43Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "InformeVentas.aspx",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Universidad cuarto semestre\\HerramientasII\\GestionDeVentasEquipos\\InformeVentas.aspx",
               "RelativeDocumentMoniker": "InformeVentas.aspx",
@@ -69,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Default.aspx",
               "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Universidad cuarto semestre\\HerramientasII\\GestionDeVentasEquipos\\Default.aspx",
               "RelativeDocumentMoniker": "Default.aspx",

@@ -81,7 +81,7 @@
     <asp:DropDownList ID="ddlEstado" runat="server" Visible="false">
         <asp:ListItem Text="Estado del dispositivo" Value="Marca de la impresora" />
         <asp:ListItem Text="Óptimo" Value="Optimo"/>
-        <asp:ListItem Text="Pésimo" Value="HP"/>
+        <asp:ListItem Text="Pésimo" Value="Pésimo"/>
     </asp:DropDownList>
 </div>
 
