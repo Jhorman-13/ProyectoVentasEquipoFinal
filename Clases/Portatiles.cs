@@ -9,8 +9,8 @@ namespace GestionDeVentasEquipos.Clases
     public class Portatiles : Equipos 
     {
         private string Modelo;
-        public Portatiles(string Marca, string modelo, string Especificaciones, float Precio)
-            : base(Marca, Precio, Especificaciones)
+        public Portatiles(string Marca, string modelo, string Especificaciones, float Precio, string TipoEquipo)
+            : base(Marca, Especificaciones, Precio, TipoEquipo)
         {
             Modelo1 = modelo;
         }

@@ -105,7 +105,6 @@
     <Content Include="About.aspx" />
     <Content Include="AgregarEquipo.aspx" />
     <Content Include="AgregarEquipo.css" />
-    <Content Include="CalculoVentas.css" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -128,10 +127,10 @@
     <Content Include="estilos.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="imagenes\WhatsApp Image 2024-02-26 at 3.01.09 PM.jpeg" />
     <Content Include="InformeVentas.aspx" />
     <Content Include="InformeVentas.css" />
     <Content Include="RegistroVentas.aspx" />
-    <Content Include="Calculo.aspx" />
     <Content Include="RegistroVentas.css" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -246,13 +245,6 @@
     <Compile Include="RegistroVentas.aspx.designer.cs">
       <DependentUpon>RegistroVentas.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Calculo.aspx.cs">
-      <DependentUpon>Calculo.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Calculo.aspx.designer.cs">
-      <DependentUpon>Calculo.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -278,7 +270,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="imagenes\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

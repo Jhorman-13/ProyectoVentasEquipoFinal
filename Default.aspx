@@ -13,11 +13,9 @@
       <ul class="menu">
           <li><a href="AgregarEquipo.aspx">Agregar equipos a la venta</a></li>
           <li><a href="RegistroVentas.aspx">Registro de ventas</a></li>
-          <li><a href="Calculo.aspx">Calculo de ventas</a></li>
           <li><a href="InformeVentas.aspx">Informes equipos vendidos</a></li>
       </ul>
 
-        
         
     </body>
 

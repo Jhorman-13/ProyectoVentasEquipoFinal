@@ -6,45 +6,62 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Agregar equipo a ventas</title>
-     <link rel="stylesheet" href="AgregarEquipo.css">
+     <link rel="stylesheet" href="AgregarEquipo.css"/>
 </head>
 <body>
     <form id="form1" runat="server" action="#" method="post">
         <h2>Formulario de Equipos</h2>
 
     <div>
-        <label for="tipoEquipo">Tipo de Equipo:</label>
-        <input type="text" id="tipoEquipo" name="tipoEquipo" required="">
+         <asp:Label ID="Label1" Class="form-label" runat="server" Text="Label">Tipo de equipo:</asp:Label>
+         <asp:TextBox ID="txtTipoEquipo" Class="form-Control" Type="text" runat="server" ></asp:TextBox>
     </div>
 
     <div>
-        <label for="marcaEquipo">Marca del Equipo:</label>
-        <input type="text" id="marcaEquipo" name="marcaEquipo" required="">
-        <input type="text" id="marcaEquipo" name="marcaEquipo" required="">
+        <asp:Label ID="Label2" Class="form-label" runat="server" Text="Label">Marca de equipo:</asp:Label>
+        <asp:TextBox ID="txtMarca" Class="form-Control" Type="text" runat="server"></asp:TextBox>
     </div>
 
     <div>
-        <label for="precio">Precio:</label>
-        <input type="number" id="precio" name="precio">
+        <asp:Label ID="Label3" Class="form-label" runat="server" Text="Label">Precio:</asp:Label>
+        <asp:TextBox ID="txtPrecio" Class="form-Control" Type="number" runat="server"></asp:TextBox><br class="Apple-interchange-newline"/>
     </div>
 
    
-    <div>
-        <label for="especificaciones">Especificaciones:</label>
-        <textarea id="especificaciones" name="especificaciones" rows="4" required=""></textarea>
-    </div>
+   <div>
+    <asp:Label ID="Label4" CssClass="form-label" runat="server" Text="Especificaciones:"></asp:Label>
+    <asp:TextBox ID="txtEspecificaciones" Class="form-Control" Type="text" runat="server" TextMode="MultiLine" Rows="5" placeholder="Ejemplo: Ram 8GB"></asp:TextBox>
+</div>
 
-   
-    <div>
-        <label for="resolucion">Resolución de pantalla o impresión (Si aplica):</label>
-        <input type="text" id="resolucion" name="resolucion" required="">
-    </div>
+
+        <br/>
 
     <div>
-        <input type="submit" value="Guardar">
+        <asp:Button ID="btnAgregar" Class="boton" runat ="server" Text="Agregar" OnClick="btnAgregar_Click" />
+        <asp:Button ID="btnLimpiar" Class="boton" runat="server" Text="Limpiar" OnClick="btnLimpiar_Click"/>
+    </div>
+        <br class="Apple-interchange-newline"/>
+        <br class="Apple-interchange-newline"/>
+  
+
+        
+    <div class="containerAgregarEquipos col">
+        <asp:GridView ID="GridViewEquipos" runat="server" AutoGenerateColumns="false" OnSelectedIndexChanged="GridViewEquipos_SelectedIndexChanged">
+            <Columns>
+                <asp:BoundField DataField="TipoEquipo" HeaderText="Tipo de Equipo" SortExpression="TipoEquipo"></asp:BoundField>
+                <asp:BoundField DataField="Marca" HeaderText="Marca" SortExpression="Marca"></asp:BoundField>
+                <asp:BoundField DataField="Precio" HeaderText="Precio" SortExpression="Precio"></asp:BoundField>
+                <asp:BoundField DataField="Especificacoiones" HeaderText="Especificaciones" SortExpression="Especificaciones"></asp:BoundField>
+            </Columns>
+        </asp:GridView>
     </div>
 
 
+        
+        
     </form>
+   
+
 </body>
 </html>
+

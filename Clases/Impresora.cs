@@ -9,8 +9,8 @@ namespace GestionDeVentasEquipos.Clases
     {
         private string TipoConexion;
         private string Resolucion;
-        public Impresora(string Marca, string Especificaciones, float Precio, string tipoConexion, string resolucion)
-           : base(Marca, Precio, Especificaciones)
+        public Impresora(string Marca, string Especificaciones, float Precio, string tipoConexion, string resolucion, string TipoEquipo)
+           : base(Marca, Especificaciones, Precio , TipoEquipo)
         {
             TipoConexion1 = tipoConexion;
             Resolucion1 = resolucion;

@@ -1,20 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace GestionDeVentasEquipos.Clases
+﻿namespace GestionDeVentasEquipos.Clases
 {
     public class Monitores : Equipos
     {
         private string TipoConexionPantallas;
         private string ResolucionPantallas;
 
-        public Monitores(string Marca, string Especificaciones, float Precio, string tipoConexion, string resolucion)
-          : base(Marca, Precio, Especificaciones)
+        public Monitores(string tipoConexionPantallas, string resolucionPantallas, string Marca, string TipoEquipo, string Especificaciones, float Precio)
+            : base(Marca, TipoEquipo, Precio , Especificaciones)
         {
-            TipoConexionPantallas1 = tipoConexion;
-            ResolucionPantallas1 = resolucion;
+            TipoConexionPantallas = tipoConexionPantallas;
+            ResolucionPantallas = resolucionPantallas;
         }
 
         public string TipoConexionPantallas1 { get => TipoConexionPantallas; set => TipoConexionPantallas = value; }
